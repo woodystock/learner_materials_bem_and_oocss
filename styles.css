@@ -4,4 +4,52 @@ img {
     max-width: 200px;
 }
 
+.star-wars-page-theme  {
+    background-image: url("images/stars.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid grey;
+    border-radius: 5px;
+}
+
+.card__title {
+    text-align: center;
+}
+
+.card__image {
+    background-color: grey;
+    border-radius: 4px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card--light {
+    border-color: white;
+    background-color: lightskyblue;
+    
+}
+
+.card__image--light {
+    background-color: white;
+}
+
+.card__image--dark {
+    background-color: red;
+}
+
+.card--dark {
+    border-color: red;
+    background-color: black;
+    color: white;
+}
+
 /* Happy coding! */
