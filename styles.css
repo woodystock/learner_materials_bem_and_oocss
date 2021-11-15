@@ -1,26 +1,52 @@
-/* You can delete / re-write this img class  */
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 
 img {
     max-width: 200px;
 }
 
-.star-wars-page-theme  {
+.sw-page-theme  {
     background-image: url("images/stars.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
+}
+
+.sw-title {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .card {
     background-color: white;
-    width: fit-content;
+    width: 40%;
     padding: 10px;
     margin: 10px;
     border: 5px solid grey;
     border-radius: 5px;
 }
 
+.card--light {
+    border-color: white;
+    background-color: lightskyblue;
+    
+}
+
+.card--dark {
+    border-color: red;
+    background-color: black;
+    color: white;
+}
+
+
 .card__title {
     text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.card__list {
+    font-family: 'Press Start 2P', cursive;
 }
 
 .card__image {
@@ -32,11 +58,7 @@ img {
     margin-right: auto;
 }
 
-.card--light {
-    border-color: white;
-    background-color: lightskyblue;
-    
-}
+
 
 .card__image--light {
     background-color: white;
@@ -46,10 +68,5 @@ img {
     background-color: red;
 }
 
-.card--dark {
-    border-color: red;
-    background-color: black;
-    color: white;
-}
 
 /* Happy coding! */
