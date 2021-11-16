@@ -29,12 +29,13 @@ img {
     margin: 10px;
     border: 5px solid grey;
     border-radius: 5px;
+    max-width: 300px;
 }
 
 .card--light {
     border-color: white;
     background-color: lightskyblue;
-    
+    color: black;
 }
 
 .card--dark {
@@ -43,10 +44,29 @@ img {
     color: white;
 }
 
+.card--droid {
+    border-color: white;
+    background-color: grey;
+    color: white;
+}
+
+.card--monster {
+    border-color: greenyellow;
+    background-color: green;
+    color: yellow;
+}
+
 
 .card__title {
     text-align: center;
     font-family: 'Press Start 2P', cursive;
+    font-size: 100%;
+}
+
+.card__subtitle {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 60%;
 }
 
 .card__list {
@@ -71,6 +91,14 @@ img {
 
 .card__image--dark {
     background-color: red;
+}
+
+.card__image--droid {
+    background-color: white;
+}
+
+.card__image--monster {
+    background-color: greenyellow;
 }
 
 .sw-button {
@@ -104,6 +132,28 @@ img {
 .sw-button--light:hover {
     color: lightskyblue;
     background-color: white;
+}
+
+.sw-button--droid {
+    background-color: grey;
+    color: white;
+    border-color: white;
+}
+
+.sw-button--droid:hover {
+    color: grey;
+    background-color: white;
+}
+
+.sw-button--monster {
+    background-color: green;
+    color: yellow;
+    border-color: greenyellow;
+}
+
+.sw-button--monster:hover {
+    color: green;
+    background-color: greenyellow;
 }
 
 
