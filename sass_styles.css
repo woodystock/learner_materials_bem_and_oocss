@@ -1,0 +1,156 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+img {
+  max-width: 200px;
+}
+
+.sw-page-theme {
+  background-image: url("images/stars.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-color: black;
+}
+
+.sw-title {
+  color: white;
+  font-family: "Press Start 2P", cursive2;
+}
+
+.h-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border: 5px solid grey;
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+.card--light {
+  border-color: white;
+  background-color: lightskyblue;
+  color: black;
+}
+
+.card--dark {
+  border-color: red;
+  background-color: black;
+  color: white;
+}
+
+.card--droid {
+  border-color: white;
+  background-color: grey;
+  color: white;
+}
+
+.card--monster {
+  border-color: greenyellow;
+  background-color: green;
+  color: yellow;
+}
+
+.card__title {
+  text-align: center;
+  font-family: "Press Start 2P", cursive2;
+  font-size: 100%;
+}
+
+.card__subtitle {
+  text-align: center;
+  font-family: "Press Start 2P", cursive2;
+  font-size: 60%;
+}
+
+.card__list {
+  font-family: "Press Start 2P", cursive2;
+  max-width: 300px;
+}
+
+.card__image {
+  background-color: grey;
+  border-radius: 4px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card__image--light {
+  background-color: white;
+}
+
+.card__image--dark {
+  background-color: red;
+}
+
+.card__image--droid {
+  background-color: white;
+}
+
+.card__image--monster {
+  background-color: greenyellow;
+}
+
+.sw-button {
+  width: 100%;
+  height: auto;
+  font-family: "Press Start 2P", cursive2;
+  background-color: white;
+  border: 4px solid black;
+  margin: 5px;
+  padding: 10px;
+  color: blue;
+}
+
+.sw-button--dark {
+  background-color: black;
+  color: white;
+  border-color: red;
+}
+
+.sw-button--dark:hover {
+  color: black;
+  background-color: red;
+}
+
+.sw-button--light {
+  background-color: lightskyblue;
+  color: black;
+  border-color: white;
+}
+
+.sw-button--light:hover {
+  color: lightskyblue;
+  background-color: white;
+}
+
+.sw-button--droid {
+  background-color: grey;
+  color: white;
+  border-color: white;
+}
+
+.sw-button--droid:hover {
+  color: grey;
+  background-color: white;
+}
+
+.sw-button--monster {
+  background-color: green;
+  color: yellow;
+  border-color: greenyellow;
+}
+
+.sw-button--monster:hover {
+  color: green;
+  background-color: greenyellow;
+}
+
+/* Happy coding! */
+
+/*# sourceMappingURL=sass_styles.css.map */
